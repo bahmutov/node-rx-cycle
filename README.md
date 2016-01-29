@@ -9,6 +9,7 @@
 * [src/02-1fps.js](src/02-1fps.js) - 1fps rate limited server
 * [src/rate-limit.js](src/rate-limit.js) - rate limit stream operation
 * [src/03-main.js](src/03-main.js) - refactor to sink and main function
+* [src/04-run.js](src/04-run.js) - introduced more general run function
 
 ### Small print
 
