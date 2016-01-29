@@ -1,6 +1,8 @@
 # node-rx-cycle
 > Example using RxJS and Cycle.js on the server to handle requests (NOT server-side rendering)
 
+Read the blog post [Node server with Rx and Cycle.js](https://glebbahmutov.com/blog/node-server-with-rx-and-cycle/)
+
 ## Code
 
 * [src/00-node-server.js](src/00-node-server.js) - "hello world" example in plain Node
@@ -10,6 +12,7 @@
 * [src/rate-limit.js](src/rate-limit.js) - rate limit stream operation
 * [src/03-main.js](src/03-main.js) - refactor to sink and main function
 * [src/04-run.js](src/04-run.js) - introduced more general run function
+* [src/05-sources.js](src/05-sources.js) - clean separation between read, write effects and main logic
 
 ### Small print
 
