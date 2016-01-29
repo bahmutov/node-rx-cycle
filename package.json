@@ -1,0 +1,33 @@
+{
+  "name": "node-rx-cycle",
+  "version": "1.0.0",
+  "description": "Example using RxJS and Cycle.js on the server to handle requests (NOT server-side rendering)",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahmutov/node-rx-cycle.git"
+  },
+  "private": true,
+  "dependencies": {
+    "debug": "2.2.0",
+    "rx": "4.0.7"
+  },
+  "keywords": [
+    "reactive",
+    "rxjs",
+    "node",
+    "example",
+    "demo",
+    "cycle",
+    "cycle.js"
+  ],
+  "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bahmutov/node-rx-cycle/issues"
+  },
+  "homepage": "https://github.com/bahmutov/node-rx-cycle#readme"
+}
