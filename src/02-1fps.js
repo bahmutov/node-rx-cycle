@@ -11,9 +11,11 @@ function sendHello(e) {
 const interval = 1000
 const rateLimit = require('./rate-limit')
 
-requests_
-  .tap(e => console.log(`request to ${e.req.url} at`, +(new Date) - started))
-  .subscribe(sendHello)
+const limited_ = rateLimit(
+  requests_.tap(e => console.log(`request to ${e.req.url} at`, +(new Date) - started))
+  , interval)
+
+limited_.subscribe(sendHello)
 
 // server
 const http = require('http');
