@@ -8,6 +8,7 @@
 * [src/01-rx.js](src/01-rx.js) - simple reactive server, responding to requests
 * [src/02-1fps.js](src/02-1fps.js) - 1fps rate limited server
 * [src/rate-limit.js](src/rate-limit.js) - rate limit stream operation
+* [src/03-main.js](src/03-main.js) - refactor to sink and main function
 
 ### Small print
 
