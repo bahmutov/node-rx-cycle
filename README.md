@@ -5,6 +5,7 @@
 
 * [src/00-node-server.js](src/00-node-server.js) - "hello world" example in plain Node
   using callback
+* [src/01-rx.js](src/01-rx.js) - simple reactive server, responding to requests
 
 ### Small print
 
